@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">FashionQuiz</string>
+    <string name="main_description">Find out if you are knowledgeable when it comes to fashion.</string>
+    <string name="main_apptitle">AppTitle</string>
+    <string name="tv_main_name">Enter your name:</string>
+    <string name="til_name">Name:</string>
+    <string name="ButtonStart">Start</string>
+    <string name="invalid_name_toast_main">Your name is invalid</string>
+    <string name="inv_name">Invalid name try again.</string>
+    <string name="question1">1.The little black dress is one of the most popular basic fashion pieces.Witch designer popularised it?</string>
+    <string name="q1a1">Coco Chanel</string>
+    <string name="g1a2">Donatella Versace</string>
+    <string name="q1a3">Anne Klein</string>
+    <string name="q1a4">Donna Karan</string>
+    <string name="question2">2.What is the fashion style the otfit in the image depicts?</string>
+    <string name="q2a1">DarkWear</string>
+    <string name="q2a2">TechWear</string>
+    <string name="q2a3">CotageCore</string>
+    <string name="q2a4">Goth</string>
+    <string name="question3">3.Witch fashion house collaborated with the gaming company Riot Games?</string>
+    <string name="q3a1"><![CDATA[Dolce&Gabbana]]></string>
+    <string name="q3a2">Dior</string>
+    <string name="q3a3">Prada</string>
+    <string name="q3a4">Louis Vuitton</string>
+    <string name="question4">4.The jeans that is fitted on the thighs and the gets progressively loose from the knee area is called:</string>
+    <string name="q4a1">Bootcut jeans</string>
+    <string name="q4a2">Mom Jeans</string>
+    <string name="q4a3">Boyfriend jeans</string>
+    <string name="question5">5.The basic shape or outline of a garment is referred to as:</string>
+    <string name="q4a4">Bell Bottom</string>
+    <string name="q5a1">Cut</string>
+    <string name="q5a2">Line</string>
+    <string name="q5a3">Silhouette</string>
+    <string name="q5a4">Hemline</string>
+    <string name="button_finish">Finish</string>
+    <string name="empty">empty</string>
+</resources>

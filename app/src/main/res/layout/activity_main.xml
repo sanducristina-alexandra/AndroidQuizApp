@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/sandu_cristina_main_constraint_layout"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/gradient_collection">
+
+    <ImageView
+        android:id="@+id/sandu_cristina_img_main_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/app_title"
+        android:contentDescription="@string/main_apptitle"
+        android:layout_marginTop="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+    </ImageView>
+
+    <TextView
+        android:id="@+id/sandu_cristina_tv_main_description"
+        style="@style/TvMainDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/main_description"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/sandu_cristina_img_main_title" />
+
+    <TextView
+        android:id="@+id/sandu_cristina_tv_main_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="@string/tv_main_name"
+        style="@style/TvMainName"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/sandu_cristina_til_main_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/sandu_cristina_tv_main_name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginStart="32dp"
+        app:boxBackgroundColor="@color/LightPink"
+        app:boxCornerRadiusBottomEnd="15dp"
+        app:boxCornerRadiusBottomStart="15dp"
+        app:boxCornerRadiusTopEnd="15dp"
+        app:boxCornerRadiusTopStart="15dp"
+       >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/sandu_cristina_tiet_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/til_name"
+            android:textColorHint="@color/white"
+            android:typeface="serif"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+     <androidx.appcompat.widget.AppCompatButton
+         android:id="@+id/sandu_cristina_btn_main_start"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintEnd_toEndOf="parent"
+         android:layout_marginBottom="32dp"
+         android:text="@string/ButtonStart"
+         android:background="@drawable/button_rounded_corners"
+         style="@style/MainButton"
+         android:backgroundTint="@color/black"
+
+     />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

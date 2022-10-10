@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuestionActivity"
+    android:background="@drawable/gradient_background_questions">
+
+
+    <ScrollView
+        android:id="@+id/sandu_cristina_sv_questions"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/sandu_cristina_tv_question1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:text="@string/question1"
+                style="@style/QuestionsStyle"
+                />
+            <RadioGroup
+                android:id="@+id/sandu_cristina_rg_q1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/sandu_cristina_tv_question1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:orientation="vertical"
+                android:weightSum="4"
+
+                >
+            <RadioButton
+                android:id="@+id/sandu_cristina_rb_q1a1"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="@string/q1a1"
+                style="@style/RadioButtonsStyle"
+                android:checked="true"
+                />
+                <RadioButton
+                    android:id="@+id/sandu_cristina_rb_q1a2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/g1a2"
+                    style="@style/RadioButtonsStyle"
+                    />
+                <RadioButton
+                    android:id="@+id/sandu_cristina_rb_q1a3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/q1a3"
+                    style="@style/RadioButtonsStyle"
+                    />
+                <RadioButton
+                    android:id="@+id/sandu_cristina_rb_q1a4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/q1a4"
+                    style="@style/RadioButtonsStyle"
+
+                    />
+
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/sandu_cristina_tv_question2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/sandu_cristina_rg_q1"
+                android:text="@string/question2"
+                style="@style/QuestionsStyle"
+                />
+            <ImageView
+                android:id="@+id/sandu_cristina_q2image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/sandu_cristina_tv_question2"
+                android:src="@drawable/tech_wear"
+                android:layout_marginTop="8dp"
+
+                />
+            <RadioGroup
+                android:id="@+id/sandu_cristina_rg_q2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/sandu_cristina_q2image"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:orientation="vertical"
+                android:weightSum="4"
+
+                >
+                <RadioButton
+                    android:id="@+id/sandu_cristina_rb_q2a1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/q2a1"
+                    style="@style/RadioButtonsStyle"
+                    android:checked="true"
+                    />
+                <RadioButton
+                    android:id="@+id/sandu_cristina_rb_q2a2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/q2a2"
+                    style="@style/RadioButtonsStyle"
+                    />
+                <RadioButton
+                    android:id="@+id/sandu_cristina_rb_q2a3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/q2a3"
+                    style="@style/RadioButtonsStyle"
+                    />
+                <RadioButton
+                    android:id="@+id/sandu_cristina_rb_q2a4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/q2a4"
+                    style="@style/RadioButtonsStyle"
+
+                    />
+
+
+            </RadioGroup>
+            <TextView
+                android:id="@+id/sandu_cristina_tv_question3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/sandu_cristina_rg_q2"
+                android:text="@string/question3"
+                style="@style/QuestionsStyle"
+                />
+
+            <RadioGroup
+                android:id="@+id/sandu_cristina_rg_q3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/sandu_cristina_tv_question3"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:orientation="vertical"
+                android:weightSum="4"
+
+                >
+                <RadioButton
+                    android:id="@+id/sandu_cristina_rb_q3a1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/q3a1"
+                    style="@style/RadioButtonsStyle"
+                    android:checked="true"
+                    />
+                <RadioButton
+                    android:id="@+id/sandu_cristina_rb_q3a2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/q3a2"
+                    style="@style/RadioButtonsStyle"
+                    />
+                <RadioButton
+                    android:id="@+id/sandu_cristina_rb_q3a3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/q3a3"
+                    style="@style/RadioButtonsStyle"
+                    />
+                <RadioButton
+                    android:id="@+id/sandu_cristina_rb_q3a4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/q3a4"
+                    style="@style/RadioButtonsStyle"
+
+                    />
+
+
+            </RadioGroup>
+            <TextView
+                android:id="@+id/sandu_cristina_tv_question4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/sandu_cristina_rg_q3"
+                android:text="@string/question4"
+                style="@style/QuestionsStyle"
+                />
+            <RadioGroup
+                android:id="@+id/sandu_cristina_rg_q4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/sandu_cristina_tv_question4"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:orientation="vertical"
+                android:weightSum="4"
+
+                >
+                <RadioButton
+                    android:id="@+id/sandu_cristina_rb_q4a1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/q4a1"
+                    style="@style/RadioButtonsStyle"
+                    android:checked="true"
+                    />
+                <RadioButton
+                    android:id="@+id/sandu_cristina_rb_q4a2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/q4a2"
+                    style="@style/RadioButtonsStyle"
+                    />
+                <RadioButton
+                    android:id="@+id/sandu_cristina_rb_q4a3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/q4a3"
+                    style="@style/RadioButtonsStyle"
+                    />
+                <RadioButton
+                    android:id="@+id/sandu_cristina_rb_q4a4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/q4a4"
+                    style="@style/RadioButtonsStyle"
+
+                    />
+
+
+            </RadioGroup>
+            <TextView
+                android:id="@+id/sandu_cristina_tv_question5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/sandu_cristina_rg_q4"
+                android:text="@string/question5"
+                style="@style/QuestionsStyle"
+                />
+            <RadioGroup
+                android:id="@+id/sandu_cristina_rg_q5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/sandu_cristina_tv_question5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:orientation="vertical"
+                android:weightSum="4"
+                android:layout_marginBottom="32dp"
+
+                >
+                <RadioButton
+                    android:id="@+id/sandu_cristina_rb_q5a1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/q5a1"
+                    style="@style/RadioButtonsStyle"
+                    android:checked="true"
+                    />
+                <RadioButton
+                    android:id="@+id/sandu_cristina_rb_q5a2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/q5a2"
+                    style="@style/RadioButtonsStyle"
+                    />
+                <RadioButton
+                    android:id="@+id/sandu_cristina_rb_q5a3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/q5a3"
+                    style="@style/RadioButtonsStyle"
+                    />
+                <RadioButton
+                    android:id="@+id/sandu_cristina_rb_q5a4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="@string/q5a4"
+                    style="@style/RadioButtonsStyle"
+
+                    />
+
+
+            </RadioGroup>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/sandu_cristina_btn_main_finish"
+                style="@style/MainButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/button_rounded_corners"
+                android:backgroundTint="@color/black"
+                android:text="@string/button_finish"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/sandu_cristina_rg_q5" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
